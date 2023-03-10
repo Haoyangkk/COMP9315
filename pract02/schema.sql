@@ -1,3 +1,5 @@
+create type SchemaTuple as ("table" text, "attributes" text);
+
 create or replace function schema1() returns setof text
 as $$
 declare
